@@ -6,10 +6,9 @@ pipeline {
     // For Each Commit
     stage('Lint Checks') {
       steps {
-        sh ''
+        sh 'npm i eslist'
       }
     }
 
   } // End of Stages
-
 }
